@@ -12,12 +12,12 @@ Um script capaz de banir números de whatsapp em 5 minutos
 ```shell script
 apt update && apt upgrade -y
 pkg i python git
+termux-setup-storage
 
 ```
 
 ## Instalação e acesso📲
 ```shell script
-termux-setup-storage
 git clone https://github.com/Swag666baby/spam-wa
 cd spam-wa
 python3 spam-wa.py
