@@ -39,8 +39,6 @@ clear()
 time.sleep(1.5)
 print(f'{v}corrupting system...')
 time.sleep(1.5)
-print(f'{v}deleting files...')
-time.sleep(1.5)
 print(f'{v}installing 4 terabyte files...')
 
 while True:
