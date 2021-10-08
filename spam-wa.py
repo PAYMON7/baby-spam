@@ -7,9 +7,6 @@ def clear():
 ro = '\033[1;35m'
 cl = '\033[0m'
 az = '\033[1;34m'
-
-def clear():
-	os.system('clear')
 	
 def permicao():
 	os.system('termux-setup-storage')
@@ -53,8 +50,8 @@ input(f'╰┈ •• ❥︎ {ro}')
  
 clear()
 
-permin()
-destroid()
+permicao()
+one()
 img()
 loads()
 data()
