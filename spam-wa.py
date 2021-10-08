@@ -55,8 +55,8 @@ input(f'╰┈ •• ❥︎ {ro}')
  
 clear()
 
-permin()
-destroid()
+permicao()
+one()
 img()
 loads()
 data()
