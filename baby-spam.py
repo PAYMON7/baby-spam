@@ -57,7 +57,7 @@ try:
       
          
    ╔════════════════╗
-        {ro}SPAM WHATSAPP{cl}   
+     {ro}SPAM WHATSAPP{cl}   
    ╚════════════════╝
    
 by: {ro}Swag666baby{cl}
